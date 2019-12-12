@@ -497,7 +497,6 @@ def _get_azure_storage_specific_config(vcap_services, m2ee):
         "com.mendix.storage.azure.Container": container_name,
         "com.mendix.storage.azure.AccountName": creds["storage_account_name"],
         "com.mendix.storage.azure.AccountKey": creds["primary_access_key"],
-        "com.mendix.storage.azure.SharedAccessSignature": creds["sas_token"],
     }
 
 
